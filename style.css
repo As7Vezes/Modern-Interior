@@ -17,7 +17,24 @@ body {
 
     width: 85%;
     margin: 40px auto;
+    position: relative;
+}
 
+.icon-menu {
+    display: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+}  
+
+.icon-menu > i {
+    position: absolute;
+    color: #fff;
+    top: -4.6px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 .header-container-logo > span{
@@ -88,11 +105,14 @@ body {
 
 .container-image {
     position: relative;
+    width: 737px;
+    height: 555px;
 }
 
 #image-princial {
-    width: 737px;
-    height: 555px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
 }
 
 .description-person {
@@ -185,4 +205,42 @@ footer {
 footer > p > span {
     font-weight: bolder;
     text-decoration: underline;
+}
+
+
+@media (max-width: 1400px) {
+    .header-container-list {
+        bottom: 1200px;
+        position: absolute;
+    }    
+
+    .icon-menu {
+        display: block;
+    }
+
+    .description-container {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .description-person {
+        left: 20%;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .container-image {
+        position: relative;
+        width: 537px;
+        height: 355px;
+    }
+
+    .description-person {
+        width: 300px;
+        height: 200px;
+        top: 300px;
+    }
 }
