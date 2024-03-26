@@ -32,6 +32,7 @@ body {
 
 /* Container do cabeçalho */
 .header-container {
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,6 +174,7 @@ body {
     justify-content: start;
     align-items: start;
     box-shadow: .5px 3px 3px #000;
+    word-wrap: break-word;
 }
 
 /* Descrição da pessoa */
@@ -219,6 +221,7 @@ body {
     font-weight: 500;
     width: 300px;
     height: fit-content;
+    word-wrap: break-word;
 }
 
 /* Imagem na descrição da pessoa */
@@ -425,6 +428,16 @@ footer>p>span {
     }
 
     #person-apresentation {
-        font-size: .69rem;
+        font-size: .6rem;
+        word-wrap: break-word;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 374){
+
+    #person-apresentation {
+        font-size: 10px;
+        color: ;
     }
 }
