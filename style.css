@@ -99,6 +99,7 @@ body {
 
 /* Container das seções */
 .container-section {
+    width: 100%;
     margin: 10px auto;
 }
 
@@ -271,8 +272,8 @@ footer>p>span {
     }
 
     .person-description-image {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     .person-name {
@@ -342,8 +343,8 @@ footer>p>span {
     }
 
     .person-description-image {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
 
     .person-name {
@@ -361,14 +362,13 @@ footer>p>span {
 
 @media (max-width: 555px) {
     .container-image {
-        min-width: 40%;
-        max-width: 400px;
+        width: 100%;
         position: relative;
     }
 
     .description-person {
         position: absolute;
-        top: 55%;
+        top: 65%;
         right: 20%;
         width: 60%;
         max-width: 400px;
@@ -376,8 +376,8 @@ footer>p>span {
     }
 
     .person-description-image {
-        width: 45px;
-        height: 45px;
+        width: 65px;
+        height: 65px;
     }
 
     .person-name {
@@ -415,8 +415,8 @@ footer>p>span {
     }
 
     .person-description-image {
-        width: 35px;
-        height: 35px;
+        width: 55px;
+        height: 55px;
     }
 
     .person-name {
@@ -436,8 +436,9 @@ footer>p>span {
 
 @media (max-width: 374){
 
-    #person-apresentation {
-        font-size: 10px;
-        color: ;
+    .person-description-image {
+        width: 55px;
+        height: 55px;
     }
+
 }
